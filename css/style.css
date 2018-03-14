@@ -1,0 +1,85 @@
+
+#logo{
+  height: 150px;
+  width: 150px;
+}
+
+
+
+#filter{
+  border: 1px solid red;
+}
+.sredina
+{
+	height: 400px;
+}
+.mojaSlika {
+	height:400px;
+}
+
+#forma input[type=text]{
+	width:300px;
+	height:40px;
+	margin-bottom: 30px;
+	padding:5px;
+}
+
+#forma input[type=reset]{
+	width:100px;
+	height:35px;
+	margin:5px;
+	padding:5px;
+	float:left;
+}
+#forma input[type=button]{
+	width:100px;
+	height:35px;
+	margin:5px;
+	padding:5px;
+	float:left;
+}
+
+#pogresnoIme{
+	width:300px;
+	height:40px;
+	font-size:8px;
+	color:#ff0000;
+	visibility:hidden;
+	padding:3px;
+}
+
+#pogresnoPrezime{
+	width:300px;
+	height:40px;
+	padding:3px;
+	font-size:8px;
+	visibility:hidden;
+	color:#ff0000;
+}
+
+#pogresanEmail{
+	width:300px;
+	height:40px;
+	font-size:8px;
+	visibility:hidden;
+	padding:3px;
+	color:#ff0000;
+}
+
+#blok
+{
+	border:1px solid #0ba39c;
+	margin:20px auto;
+	width:300px;
+	padding:10px 0px;
+	text-align:left;
+	display:none;
+}
+
+#slajder img {
+  display: none;
+}
+
+#slajder .show {
+  display: inline;
+}

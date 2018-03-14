@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="keyword" content="pivo, pivnica, pivkan, krigla, pub, svirka"/> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="fontawesome/svg-with-js/js/fontawesome-all.js"></script>
+    <title>Pivkan</title>
+  </head>
+  <body background="css/slike/pozadina.jpg">
+    <div class="container">
+      <!--LOGO I MENI-->
+        <div class="row">
+          <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            <img id="logo" src="css/slike/logo1.png">
+        </div>
+        <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 mt-5 pr-5">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active bg-inverse text-white" href="index.html">Pocetna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-inverse text-white" href="autor.html">O autoru</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-inverse text-white" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-inverse text-white" href="galerija.html">Galerija</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--LOGO I MENI-->
+
+      <!--SLIDER BANER ITD-->
+      <div class="row mt-1">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div id="slajder">
+              <img  class="show" src="css/slike/slajder1.jpeg" alt="pivo" width="1050px" height="550px"/>
+              <img src="css/slike/slajder2.jpeg" alt="flasa_piva" width="1050px" height="550px"/>
+              <img src="css/slike/slajder3.jpeg" alt="pivo_na_sanku" width="1050px" height="550px"/>
+              <img src="css/slike/slajder4.jpeg" alt="pivo_u_frizideru" width="1050px" height="550px"/>
+            </div>
+        </div>
+      </div>
+
+        <!--SLIDER BANER ITD-->
+
+        <!--SADRZAJ-->
+        <div class="row mt-3 mb-3">
+            <div class="col-lg-3 col-xl-3">
+              <form id="#filter">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-inverse text-white">
+                      <label for="drzave">Država</label>
+                  </div>
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2 mb-2 bg-inverse text-white">
+                      <select id="drzave">
+                        <option value="0">Izaberite</option>
+                        <option value="1">Nemačka</option>
+                        <option value="2">Škotska</option>
+                        <option value="3">Holandija</option>
+                        <option value="4">Belgija</option>
+                        <option value="5">Češka</option>
+                      </select>
+                  </div>
+ 
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                      <button id="filtriranje" class="btn btn-primary">Pronadji</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                  <!--SLIKE PIVCETA-->
+
+            <div id="proizvodi">
+          <!--<div class="row mt-2">
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/amstel.jpg">
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/hoegaarden.jpg">
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/jack-hammer.jpg">
+                </div>
+              </div>
+
+              <div class="row mt-2">
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/amstel.jpg">
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/hoegaarden.jpg">
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/jack-hammer.jpg">
+                </div>
+              </div>
+
+              <div class="row mt-2">
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/amstel.jpg">
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/hoegaarden.jpg">
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <img src="css/slike/jack-hammer.jpg">
+                </div>
+              </div>
+            </div>-->
+            </div>
+            
+        </div>
+      </div>
+        <!--SADRZAJ-->
+
+
+        <!--FOOTER-->
+        <div class="row mb-2">
+          <div class="col-lg-4 col-xl-4 pl-2">
+            <img src="css/slike/logo1.png"/>
+            <ul class="list-group">
+              <li class="list-group-item">Ulica: Cara Lazara bb 3/2/3</li>
+              <li class="list-group-item">Kontakt i rezervacija: 222-555-222</li>
+              <li class="list-group-item"><a href="">Dokumentacija</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-xl-3 mt-4 pt-5">
+              <div class="row mt-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <a href="https://www.facebook.com/marko.nikolic.3382"><i class="fab fa-facebook fa-4x"></i></a>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <a href="#"><i class="fab fa-instagram fa-4x"></i></a>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <a href="#"><i class="fab fa-twitter fa-4x"></i></a>
+                </div>
+              </div>
+              <li class="list-group-item mt-5">Radno vreme: </br> petak-subota: 10-04h </br> penedeljak-cetvrtak: 08-00h</li>
+          </div>
+          <div class="col-lg-5 col-xl-5">
+              <img src="css/slike/svirke.jpg"/>
+              <ul class="list-group">
+                
+                <li class="list-group-item"><a href="">Sitemap</a></li>
+              </ul>
+          </div>
+
+        </div>
+        <!--FOOTER-->
+        
+        <script type="text/javascript" src="js/slajder.js"></script>
+        <script type="text/javascript" src="js/proizvodi.js"></script>
+        <script type="text/javascript" src="js/filtriranje.js"></script>
+        
+        
+        
+  </body>
+</html>
